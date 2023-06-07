@@ -1,0 +1,54 @@
+.secHead{
+    background-color: rgb(191, 63, 63);
+    text-align: center;
+    height: 15vw;
+    margin-bottom: 2vw;
+}
+
+#aPortfolio{
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: none;
+    background-color: rgb(191, 63, 63);
+}
+
+h2{
+    font-size: 300%;
+    margin: 0;
+    /* vertical-align: middle; */
+    padding-top: 5.5vw;
+}
+
+@media (min-width: 600px){
+
+
+    /* sticky bar start */
+    #sticky{
+        position: fixed;
+        top: 3vw;
+        right: 1vw;
+        display: grid; 
+        grid-template-rows: repeat(6, 1fr);
+        border: 3px solid black;
+        border-radius: 1vw;
+        background-color: rgba(255, 0, 0, 0.5);
+    }
+
+    #sticky a{
+        padding-top: 1vw;
+        text-align: center;
+        height: 2vw;
+        width: 3vw;
+        border-bottom: 2px solid rgb(134, 43, 64);
+    }
+
+    #sticky a:last-child{
+        border: none;
+    }
+
+    #sticky a:hover{
+        scale: 110%;
+    }
+    /* sticky bar slut */
+}

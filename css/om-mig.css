@@ -1,0 +1,16 @@
+#aOmMig{
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.grid2-1 img{
+    max-height: 90vh;
+    justify-self: center;
+}
+
+.grid2-1 h2{
+    text-align: center;
+}
