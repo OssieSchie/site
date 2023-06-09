@@ -1,8 +1,17 @@
+/* *{
+    border: solid black 1px;
+} */
+
 .secHead{
-    background-color: rgb(191, 63, 63);
+    /* background-color: rgb(191, 63, 63); */
     text-align: center;
     height: 15vw;
     margin-bottom: 2vw;
+    margin-top: 0vw;
+}
+
+.secHead ~ .secHead{
+    margin-top: 7vw;
 }
 
 #aPortfolio{
@@ -13,26 +22,76 @@
     background-color: rgb(191, 63, 63);
 }
 
+#sec212, #sec221, #sec341, #sec441, #sec511, #sec521{
+    background-size:cover;
+}
+
+#sec212{
+    background-image: url(../../images/020102sec.webp);
+}
+
+#sec221{
+    background-image: url(../../images/020201sec.webp);
+}
+
+#sec341{
+    background-image: url(../../images/030401sec.webp);
+}
+
+#sec441{
+    background-image: url(../../images/040401sec.webp);
+}
+
+#sec511{
+    background-image: url(../../images/050101sec.webp);
+}
+
+#sec521{
+    background-image: url(../../images/050201sec.webp);
+}
+
 h2{
     font-size: 300%;
     margin: 0;
     /* vertical-align: middle; */
     padding-top: 5.5vw;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9);
+}
+
+h3{
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(191, 63, 63);
+    display: inline;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-radius: 1.5vw;
+}
+
+.h3Align{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.h3Align h3{
+    grid-column: 2/3;
 }
 
 @media (min-width: 600px){
 
 
-    /* sticky bar start */
+    /* sticky bar */
     #sticky{
         position: fixed;
-        top: 3vw;
+        top: 30vh;
         right: 1vw;
         display: grid; 
         grid-template-rows: repeat(6, 1fr);
         border: 3px solid black;
         border-radius: 1vw;
         background-color: rgba(255, 0, 0, 0.5);
+        z-index: 1;
     }
 
     #sticky a{
@@ -50,5 +109,4 @@ h2{
     #sticky a:hover{
         scale: 110%;
     }
-    /* sticky bar slut */
 }

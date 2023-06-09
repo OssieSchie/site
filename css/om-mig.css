@@ -1,16 +1,27 @@
 #aOmMig{
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-right: none;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-bottom: none;
     background-color: transparent;
 }
 
 .grid2-1 img{
-    max-height: 90vh;
+    margin-top: 9vw;
+    max-height: 70vh;
     justify-self: center;
 }
 
 .grid2-1 h2{
     text-align: center;
+    font-size: 3vw;
 }
+
+p{
+    text-align: left;
+    margin-left: 7vw ;
+}
+
+/* *{
+    border: solid black 1px;
+} */

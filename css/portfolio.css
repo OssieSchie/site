@@ -1,10 +1,23 @@
+/* *{
+    border: solid black 1px;
+} */
+
+h1{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+    font-size: 8vw;
+}
+
 #aPortfolio{
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-bottom: none;
     background-color: transparent;
 }
+
+/* alternativ layout for temaer */
 
 /* #portfGrid{
     display: grid;
@@ -31,7 +44,7 @@
 #portfGrid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin-top: 5vw;
+    margin-top: 3vw;
     margin-bottom: 5vw;
     margin-right: 3vw;
     margin-left: 3vw;
@@ -42,12 +55,52 @@
     text-align: center;
     width: 15vw;
     height: 30vw;
-    background-color: red;
-    border: solid black 3px;
+    background-color: rgb(191, 63, 63);
+    border: solid black 1px;
+    border-bottom: solid black 5px;
+    border-radius: 2vw;
 }
 
 #portfGrid a:hover{
     /* scale: 102%; */
-    scale: 140% 110%;
+    scale: 105% 105%;
+    /* width: 18vw;
+    height: 35vw; */
     box-shadow: 1px 1px 3px rgba(72, 38, 78, 0.3);
+    border-radius: 2vw;
+}
+
+#portfGrid h2{
+    font-size: 3vw;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9);
+}
+
+#t212{
+    background-image: url(../images/020102.webp);
+    background-size: cover;
+}
+
+#t221{
+    background-image: url(../images/020201.webp);
+    background-size: cover;
+}
+
+#t341{
+    background-image: url(../images/030401.webp);
+    background-size: cover; 
+}
+
+#t441{
+    background-image: url(../images/040401.webp);
+    background-size: cover; 
+}
+
+#t511{
+    background-image: url(../images/050101.webp);
+    background-size: cover; 
+}
+
+#t521{
+    background-image: url(../images/050201.webp);
+    background-size: cover; 
 }

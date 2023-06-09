@@ -6,10 +6,23 @@ a{
     color: black;
 }
 
+main{
+    background-image: url(../images/potBG.webp);
+    background-size:cover;
+}
+
+#velkommen{
+    position: absolute;
+    top: 14vw;
+    left: 22vw;
+    font-size: 300%;
+    color: white;
+}
+
 #aIndex{
-    border-top: 3px solid black;
-    border-left: none;
-    border-right: 3px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgb(191, 63, 63);
 }
