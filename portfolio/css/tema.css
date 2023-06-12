@@ -85,7 +85,7 @@ h3{
     #sticky{
         position: fixed;
         top: 30vh;
-        right: 1vw;
+        right: 0.2vw;
         display: grid; 
         grid-template-rows: repeat(6, 1fr);
         border: 3px solid black;
@@ -108,5 +108,16 @@ h3{
 
     #sticky a:hover{
         scale: 110%;
+    }
+
+    .grid1-2 img, .grid2-1 img{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid2-1 img{
+        margin-right: 2vw;
     }
 }
