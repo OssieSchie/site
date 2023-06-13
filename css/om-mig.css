@@ -3,13 +3,23 @@
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgb(191, 63, 63);
 }
 
+main{
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+}
+
+/* .grid2-1{
+    margin-top: 0;
+} */
+
 .grid2-1 img{
-    margin-top: 9vw;
-    max-height: 70vh;
+    /* margin-top: 9vw; */
+    max-height: 100%;
     justify-self: center;
+    border-radius: 2vw;
 }
 
 .grid2-1 h2{
@@ -19,7 +29,13 @@
 
 p{
     text-align: left;
-    margin-left: 7vw ;
+}
+
+.secIntro{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2vw;
+    padding-top: 1vw;
+    backdrop-filter: blur(10px) grayscale(1);
 }
 
 /* *{
