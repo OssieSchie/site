@@ -11,6 +11,10 @@ h1{
     text-shadow: 0px 0px 9px rgba(255, 255, 255, 0.8);
 }
 
+main{
+    max-height: 100%;
+}
+
 #aPortfolio{
     border-top: 2px solid black;
     border-left: 2px solid black;
@@ -18,49 +22,29 @@ h1{
     border-bottom: none;
     background-color: rgb(191, 63, 63);
 }
-
-/* alternativ layout for temaer */
-
-/* #portfGrid{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-#portfGrid a{
-    font-size: 200%;
-    text-align: center;
-    justify-self: center;
-    margin-top: 1.5vw;
-    background-color: rgb(191, 63, 63);
-    width: 30vw;
-    height: 19vw;
-    padding-top: 1vw;
-    border-radius: 3vw 3vw 0.5vw 0.5vw;
-} */
-
 #portfGrid{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     margin-top: 3vw;
     margin-bottom: 5vw;
     margin-right: 3vw;
     margin-left: 3vw;
+    gap: 2vw;
 }
 
 #portfGrid a{
     justify-self: center;
     text-align: center;
-    width: 15vw;
-    height: 30vw;
+    width: 60vw;
+    height: 20vw;
     background-color: rgb(191, 63, 63);
     border: solid black 1px;
     border-bottom: solid black 5px;
     border-radius: 2vw;
+}
+
+#portfGrid a h2{
+    font-size: 200%;
 }
 
 #portfGrid a:hover{
@@ -105,4 +89,19 @@ h1{
 #t521{
     background-image: url(../images/050201.webp);
     background-size: cover; 
+}
+
+@media (min-width: 600px){
+    #portfGrid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: none;
+        gap: 0;
+    }
+    
+    #portfGrid a{
+        width: 15vw;
+        height: 30vw;
+    }
+    
 }

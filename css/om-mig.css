@@ -38,6 +38,61 @@ p{
     backdrop-filter: blur(10px) grayscale(1);
 }
 
+/* .grid1-1-1{
+    background-image: url(../omMig/omMigM.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    pointer-events: none;
+} */
+
+.omMigImg{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    background-image: url(../omMig/omMigL.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes spin{
+    0%{
+        background-image: url(../omMig/omMigL.webp);
+    }
+         
+    25%{
+        background-image: url(../omMig/omMigL.webp);
+    }
+
+    25.1%{
+        background-image: url(../omMig/omMigM.webp);
+    }
+         
+    50%{
+        background-image: url(../omMig/omMigM.webp);
+    }
+         
+    50.1%{
+        background-image: url(../omMig/omMigR.webp);
+    }
+         
+    75%{
+        background-image: url(../omMig/omMigR.webp);
+    }
+         
+    75.1%{
+        background-image: url(../omMig/omMigM.webp);
+    }
+         
+    100%{
+        background-image: url(../omMig/omMigM.webp);
+    }
+         
+}
+
 /* *{
     border: solid black 1px;
 } */

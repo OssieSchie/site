@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spil</title>
+     <link rel="stylesheet" href="../css/layout.css">
+     <link rel="stylesheet" href="css/spil.css">
+     <meta name="robots" content="noindex">
+</head>
+<body>
+    <header>
+        <div class="grid1-5-1">
+            <div id="navBar" class="navAnim">
+                <a href="../index.html" id="index">Forside</a>
+                <a href="../assets.html" id="assets">Assets</a>
+                <a href="../grafik.html" id="grafik">Grafik</a>
+                <a href="../teknisk.html" id="teknisk">Teknisk</a>
+                <a href="../ide.html" id="ide">Ide</a>
+            </div>           
+        </div>
+        <div class="grid1-2-1">       
+            <a href="spil/spil.html" id="spil" class="navAnim">spil</a>
+        </div>  
+    </header>
+    <main>
+        <div id="screen">
+            <div id="game">
+                <div id="game_background"></div>
+                <div id="game_elements">
+                    <div id="human1" class="">
+                        <div id="human1-sprite" class=""></div>
+                    </div>
+                    <div id="human2" class="">
+                        <div id="human2-sprite" class=""></div>
+                    </div>
+                    <div id="human3" class="">
+                        <div id="human3-sprite" class=""></div>
+                    </div>
+                    <div id="tube-overlay">
+                        <div id="tube-overlay-sprite"></div>
+                    </div>
+                    <div id="table">
+                        <div id="table-sprite"></div>
+                    </div>
+                    <div id="btn-1">
+                        <div id="btn-1-sprite"></div>
+                    </div>
+                    <div id="btn-3">
+                        <div id="btn-3-sprite"></div>
+                    </div>
+                    <div id="btn-2">
+                        <div id="btn-2-sprite"></div>
+                    </div>
+                </div>
+                <div id="game_foreground" class="hide"></div>
+                <div id="game_ui">
+                    <div id="timer-juice">
+                        <div id="timer-juice-sprite"></div>
+                    </div>
+                    <div id="timer-flask">
+                        <div id="timer-flask-sprite"></div>
+                    </div>
+                    <div id="lives-sign">
+                        <div id="lives-sign-sprite"></div>
+                    </div>
+                    <div id="lives-blink">
+                        <div id="lives-blink-sprite"></div>
+                    </div>
+                    <div id="myLives">0</div>
+                </div>
+            </div>
+            <div id="start">
+                <!-- <div id="start-bg"></div> -->
+                <div id="play-btn">
+                    <div id="play-btn-sprite"></div>
+                </div>
+                <div id="info-btn">
+                    <div id="info-btn-sprite"></div>
+                </div>
+                <div id="logo-transp" class="logo-transp-anim">
+                    <div id="logo-transp-sprite"></div>
+                </div>
+                <div id="logo" class="logo-anim">
+                    <div id="logo-sprite"></div>
+                </div>
+            </div>
+            <div id="game_over">
+                <p id="gop1">"Du spildte din plads på ventelisten"</p>
+                <p id="gop2">"Hvis du er heldig har de brug for en</p>
+                <p id="gop3">til at gøre rent på lig dissekerings plantagen"</p>
+
+                <div id="game-over-h1">
+                    <div id="game-over-h1-sprite"></div>
+                </div>
+                <div id="play-again">
+                    <div id="play-again-sprite"></div>
+                </div>
+            </div>
+            <div id="level_complete">
+                <h1 id="lch1">Level Complete!</h1>
+                <p id="lcp">Med din løn har du lige nok til en mystisk banan og en Gola (tm)</p>
+                <div id="play-again2">
+                    <div id="play-again-sprite2"></div>
+            </div>
+            <!-- <div id="info">
+                <div id="play-btn2">
+                    <div id="play-btn-sprite2"></div>
+                </div>
+            </div> -->
+        </div>
+        <div id="info">
+            <div id="play-btn2">
+                <div id="play-btn-sprite2"></div>
+            </div>
+        </div>
+        <script src="js/spil.js"></script>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

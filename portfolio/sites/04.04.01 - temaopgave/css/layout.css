@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../BebasNeue-Regular.otf);
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 2vw;
+    border-bottom: maroon solid 2px;
+}
+
+main{
+    margin-top: 5vw;
+}
+
+body{
+    background-color: rgb(254, 225, 225);
+}
+
+section{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#navBar a{
+    font-family: "BebasNeue";
+    color: maroon;
+    background-color: rgb(249, 239, 226);
+    /* border: solid black 1px; */
+    border-bottom: solid maroon 2px;
+    border-radius: 2vw;
+    padding-top: 10px;
+    /* margin:5px; */
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+    margin: 2px;
+    width: 15vw;
+}
+
+.grid1-1{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    
+    margin-top: 2vw;
+}
+/* .grid1_1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 2vw;
+} */
+
+#assetsList{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    max-width: 100%;
+}
+
+.wide img{
+    max-width:100%;
+}
+
+.wide :nth-child(2){
+    background-color: rgb(172, 163, 152); ;
+}
+
+.grid1-1 img{
+    max-width: 100%;
+    border-radius: 2vw;
+    /* gap: 1vw; */
+}
+
+.grid1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2vw;
+}
+
+p, h1, h2{
+    margin: 1vw;
+    font-family: "BebasNeue";
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    justify-content:center;
+    margin-bottom: 5vw;
+    font-size: 300%;
+}
+
+.grid1-5-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+}
+.grid1-2-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 10px;
+}
+
+#navBar{
+    display: grid;
+    grid-column: 2/7;
+}
+
+#index{
+    display: grid;
+    grid-column:2/3;
+}
+
+#assets{
+    display: grid;
+    grid-column: 3/4;
+}
+
+#grafik{
+    display: grid;
+    grid-column: 4/5;
+}
+
+#teknisk{
+    display: grid;
+    grid-column: 5/6;
+}
+
+#ide{
+    display: grid;
+    grid-column: 6/7;
+}
+
+#spil{
+    display: grid;
+    grid-column: 2/3;
+    font-family: "BebasNeue";
+    color: maroon;
+    background-color: rgb(249, 239, 226);
+    /* border: solid black 1px; */
+    border-bottom: solid maroon 2px;
+    border-radius: 2vw;
+    padding-top: 10px;
+    /* margin:5px; */
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.navAnim{
+    animation-name: navAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes navAnim{
+    0%{
+        translate: 0% -2%;
+    }
+    50%{
+        translate: 0% 2%;
+    }
+    100%{
+        translate: 0% -2%;
+    }
+}

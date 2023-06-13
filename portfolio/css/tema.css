@@ -155,6 +155,28 @@ img{
     text-align: center;
 }
 
+.grid1-1-1 a{
+    grid-column: 2/3;
+    text-align: center;
+    border: solid black 1px;
+    border-bottom: solid black 3px;
+    border-radius: 2vw;
+    background-color: rgb(112, 200, 57);
+    font-size: 200%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    box-shadow: 0px 3px 7px black;
+}
+
+.grid1-1-1 a:hover{
+    scale: 105%;
+    background-color: rgb(153, 223, 74);;
+}
+
+.grid1-1-1 abbr{
+    text-decoration: none;
+}
+
 @media (min-width: 600px){
 
     .secHead{
