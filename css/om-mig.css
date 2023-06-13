@@ -22,13 +22,35 @@ main{
     border-radius: 2vw;
 }
 
-.grid2-1 h2{
+.grid1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vw;
+    row-gap: 3vw;
+    margin-top: 5vw;
+}
+.grid1-1 li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: "RS";
+    font-size: 160%;
+}
+
+/* .secIntro{
+    padding: 2vw;
+} */
+
+h2{
     text-align: center;
-    font-size: 3vw;
+    font-size: 6vw;
 }
 
 p{
     text-align: left;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .secIntro{
@@ -48,6 +70,18 @@ p{
     pointer-events: none;
 } */
 
+#CVMig{
+    max-width: 100%;
+    padding-right: 10vw;
+}
+
+.temaSec{
+    border: solid black 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px) grayscale(1);
+    margin-bottom: 5vw;
+}
+
 .omMigImg{
     animation-name: spin;
     animation-duration: 2s;
@@ -55,7 +89,7 @@ p{
 
     background-image: url(../omMig/omMigL.webp);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;;
 }
 
 @keyframes spin{
@@ -96,3 +130,14 @@ p{
 /* *{
     border: solid black 1px;
 } */
+
+@media (min-width: 600px){
+    .temaSec{
+        border-radius: 2vw;
+        overflow: hidden;
+    }
+
+    h2{
+        font-size: 3vw;
+    }
+}
