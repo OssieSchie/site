@@ -2,6 +2,20 @@
     border: solid black 1px;
 } */
 
+@font-face {
+    font-family: "BBN";
+    src: url(../fonts/BebasNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: "RS";
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
+header{
+    background-color: rgb(34, 25, 25);
+}
+
 .nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,13 +53,18 @@ main{
     background-color: transparent;
 }
 
-p, h1, h2, h3, h4{
+h1, h2, h3, h4, a{
     color: black;
+    font-family: "BBN";
 }
+
+
 
 p{
     font-size: 150%;
     max-width: 50ch;
+    color: black;
+    font-family: "RS";
 }
 
 @media (min-width: 600px){
